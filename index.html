@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aangan & Ember | Artisanal Fire Kitchen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">Aangan <span>&</span> Ember</div>
+    <nav id="navLinks" class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#services">Experiences</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#booking">Reserve</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeToggle" class="theme-btn">Light Mode</button>
+      <button id="menuToggle" class="hamburger">☰</button>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="tagline">WOOD-FIRED HERITAGE CUISINE</p>
+      <h1>Where Ancient Spices Meet Open Flame</h1>
+      <p class="hero-sub">Slow-roasted clay oven delicacies, smoked botanical infusions, and courtyard dining under the stars.</p>
+      <div class="hero-btns">
+        <a href="#booking" class="btn-primary">Book a Courtyard Table</a>
+        <a href="#menu" class="btn-outline">Explore Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <h2 class="section-title">Curated Dining Experiences</h2>
+    <p class="section-subtitle">Beyond a meal—crafted moments around fire and flavor</p>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">🔥</div>
+        <h3>Live Chef's Hearth</h3>
+        <p>Sit around our open charcoal pit and watch our pitmasters sear marinated delicacies right before you.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🌿</div>
+        <h3>Botanical Smoke Bar</h3>
+        <p>Zero-proof and artisanal infusions smoked with cinnamon bark, dried rose petals, and star anise.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🏮</div>
+        <h3>Private Courtyard Pods</h3>
+        <p>Intimate stone-walled alcoves lit by brass lanterns, ideal for family celebrations and quiet evenings.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="section alt-bg">
+    <h2 class="section-title">Seasonal Fire Menu</h2>
+    <p class="section-subtitle">Freshly ground spices and locally harvested produce</p>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-category="all">All Plates</button>
+      <button class="filter-btn" data-category="starters">Ember Starters</button>
+      <button class="filter-btn" data-category="mains">Clay Oven Mains</button>
+      <button class="filter-btn" data-category="desserts">Sweet Smoke</button>
+    </div>
+
+    <div class="menu-grid">
+      <div class="menu-card" data-category="starters">
+        <div class="menu-header">
+          <h3>Charred Avocado & Tamarind Chaat</h3>
+          <span class="price">₹420</span>
+        </div>
+        <p>Wood-grilled Hass avocado, crispy lotus root, aged tamarind glaze, and roasted cumin yogurt.</p>
+      </div>
+
+      <div class="menu-card" data-category="starters">
+        <div class="menu-header">
+          <h3>Smoked Jackfruit Galouti</h3>
+          <span class="price">₹480</span>
+        </div>
+        <p>Clove-smoked tender jackfruit patties served over saffron-infused mini ulte tawe ka paratha.</p>
+      </div>
+
+      <div class="menu-card" data-category="mains">
+        <div class="menu-header">
+          <h3>24-Hour Coal Dal Aangan</h3>
+          <span class="price">₹560</span>
+        </div>
+        <p>Whole black lentils simmered overnight over dying embers, finished with white churned butter.</p>
+      </div>
+
+      <div class="menu-card" data-category="mains">
+        <div class="menu-header">
+          <h3>Saffron & Pistachio Paneer Tikka</h3>
+          <span class="price">₹620</span>
+        </div>
+        <p>Artisanal cottage cheese stuffed with crushed Iranian pistachios, charred in a clay tandoor.</p>
+      </div>
+
+      <div class="menu-card" data-category="mains">
+        <div class="menu-header">
+          <h3>Malabar Peppercorn Mushroom Claypot</h3>
+          <span class="price">₹590</span>
+        </div>
+        <p>Wild forest mushrooms roasted with Tellicherry black pepper, curry leaves, and coconut milk.</p>
+      </div>
+
+      <div class="menu-card" data-category="desserts">
+        <div class="menu-header">
+          <h3>Burnt Honey & Cardamom Kulfi</h3>
+          <span class="price">₹340</span>
+        </div>
+        <p>Slow-reduced milk popsicle caramelized with wild forest honey, rose brittle, and silver leaf.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2 class="section-title">Visual Stories</h2>
+    <p class="section-subtitle">Click any frame to inspect our kitchen and courtyard</p>
+
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" alt="Warm lantern lit courtyard dining">
+        <div class="gallery-caption">Lantern Courtyard</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" alt="Open flame grill cooking">
+        <div class="gallery-caption">The Live Ember Pit</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=800&q=80" alt="Artisanal Indian platter">
+        <div class="gallery-caption">Signature Claypot Feast</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80" alt="Smoked botanical drink">
+        <div class="gallery-caption">Cinnamon Smoke Infusion</div>
+      </div>
+    </div>
+  </section>
+
+  <div id="lightbox" class="lightbox">
+    <span id="closeLightbox" class="close-lightbox">&times;</span>
+    <img id="lightboxImg" src="" alt="Expanded view">
+    <p id="lightboxText"></p>
+  </div>
+
+  <section id="booking" class="section alt-bg">
+    <h2 class="section-title">Reserve Your Table</h2>
+    <p class="section-subtitle">Select your preferred seating zone and time</p>
+
+    <div class="booking-container">
+      <form id="bookingForm" class="booking-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="guestName">Full Name</label>
+            <input type="text" id="guestName" placeholder="e.g. Aarav Sharma" required>
+          </div>
+          <div class="form-group">
+            <label for="guestPhone">Phone Number</label>
+            <input type="tel" id="guestPhone" placeholder="e.g. 9876543210" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="bookingDate">Date</label>
+            <input type="date" id="bookingDate" required>
+          </div>
+          <div class="form-group">
+            <label for="bookingTime">Time Slot</label>
+            <select id="bookingTime" required>
+              <option value="">Choose Time</option>
+              <option value="01:00 PM">01:00 PM (Lunch)</option>
+              <option value="02:30 PM">02:30 PM (Lunch)</option>
+              <option value="07:30 PM">07:30 PM (First Dinner)</option>
+              <option value="09:30 PM">09:30 PM (Starlight Dinner)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="guestCount">Number of Guests</label>
+            <select id="guestCount" required>
+              <option value="2 Guests">2 Guests</option>
+              <option value="4 Guests">4 Guests</option>
+              <option value="6 Guests">6 Guests</option>
+              <option value="8+ Guests">8+ Guests (Group)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="seatingZone">Seating Zone</label>
+            <select id="seatingZone" required>
+              <option value="Open Courtyard">Open Courtyard</option>
+              <option value="Chef's Hearth Counter">Chef's Hearth Counter</option>
+              <option value="Private Lantern Pod">Private Lantern Pod</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-primary full-btn">Confirm Reservation</button>
+      </form>
+
+      <div id="bookingConfirmation" class="confirmation-card hidden">
+        <h3>Table Reserved!</h3>
+        <p id="confirmDetails"></p>
+        <button id="newBookingBtn" class="btn-outline">Make Another Booking</button>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="footer">
+    <div class="footer-grid">
+      <div>
+        <h3>Aangan <span>&</span> Ember</h3>
+        <p>Crafting soulful wood-fired Indian cuisine in an intimate open-air courtyard.</p>
+      </div>
+      <div>
+        <h4>Visit Us</h4>
+        <p>14 Heritage Lane, Sector 4</p>
+        <p>Bokaro Steel City, Jharkhand 827004</p>
+      </div>
+      <div>
+        <h4>Hours & Contact</h4>
+        <p>Tue – Sun: 12:30 PM – 11:30 PM</p>
+        <p>Phone: +91 91234 56789</p>
+        <p>Email: tables@aanganandember.in</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Aangan & Ember Kitchen. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
